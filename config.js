@@ -4,14 +4,14 @@ const chalk = require("chalk");
 
 //
 global.available = true;
-global.autoReadAll = false;
+global.autoReadAll = true;
 global.antitags = true;
 
 
 //auto functioner
 global.autoTyping = true;                //auto tying by default off.
 global.autoRecord = true;                //auto recording by default off.
-global.groupevent = false;                //This is the new variable for controlling group event handling.
+global.groupeven; t = true;              //This is the new variable for controlling group event handling.
 global.statusseen = true;                 //This is the new variable for controlling status seen.
 global.autoreadgc = true;
 
@@ -41,7 +41,7 @@ global.openAiAPI = "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";
 
 
 //
-global.location = "Tata City, India";
+global.location = "Kampala, Uganda";
 global.reactmoji = "❤️"
 global.themeemoji = "💖";
 global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
@@ -80,15 +80,15 @@ global.ntilink = []
 //
 global.mess = {
   jobdone: 'Here you go...',
-  useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
+  useradmin: 'Sorry, only *Mark* can use this command *Baka*!',
   botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-  botowner: 'Only my *Owner* can use this command, Baka!',
-  grouponly: 'This command is only made for *Groups*, Baka!',
-  privateonly: 'This command is only made for *Private Chat*, Baka!',
+  botowner: 'Only Mark *Owner* can use this command, my honor!',
+  grouponly: 'This command is only made for *Berrym*, my honor!',
+  privateonly: 'This command is only made for *Private Chat*, my honor!',
   botonly: 'Only the *Bot itself* can use this command!',
-  waiting: 'Just Wait...',
-  nolink: 'Please provide me *link*, Baka!',
-  error: 'An error occurd!',
+  waiting: 'Hold on please...',
+  nolink: 'Please provide me *link*, if you dont mind!',
+  error: 'An error occured!',
   banned: 'You are *Banned* fron using commands!',
   bangc: 'This Group is *Banned* from using Commands!',
   nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
