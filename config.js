@@ -9,7 +9,7 @@ global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = true;                //auto tying by default off.
+global.autoTyping = true;                //auto tying by default on.
 global.autoRecord = true;                //auto recording by default off.
 global.groupeven; t = true;              //This is the new variable for controlling group event handling.
 global.statusseen = true;                 //This is the new variable for controlling status seen.
@@ -24,10 +24,10 @@ global.prefa = ["."];                                    //Default prefix here. 
 global.Owner = ["256755282425"];         //If you want singal number so global.Owner = ['256755282425'] Change into your number.
 global.OwnerNumber = ["256755282425"];   //If you want singal number so global.Owner = ['256755282425'] Change into your number.
 global.ownertag = ["256755282425"]
-global.OwnerName = "Berrylove";
-global.BotName = "Berry";
+global.OwnerName = "Mark";
+global.BotName = "Berrym";
 global.packname = "A17 Bot";                             //Do not change.
-global.author = "By: Berry";                               //Do not change.
+global.author = "By: Berrylove";                               //Do not change.
 global.BotSourceCode = "https://github.com/Kai0071/A17"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 
@@ -73,14 +73,14 @@ global.ntvirtex = []
 global.rkyt = []
 global.wlcm = []
 global.gcrevoke = []
-global.autorep = []
+global.autorep = [true]
 global.ntilink = []
 
 
 //
 global.mess = {
   jobdone: 'Here you go...',
-  useradmin: 'Sorry, only *Mark* can use this command *Baka*!',
+  useradmin: 'Sorry, only *Mark* can use this command *My honor*!',
   botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
   botowner: 'Only Mark *Owner* can use this command, my honor!',
   grouponly: 'This command is only made for *Berrym*, my honor!',
@@ -89,7 +89,7 @@ global.mess = {
   waiting: 'Hold on please...',
   nolink: 'Please provide me *link*, if you dont mind!',
   error: 'An error occured!',
-  banned: 'You are *Banned* fron using commands!',
+  banned: 'You are *Banned* from using commands!',
   bangc: 'This Group is *Banned* from using Commands!',
   nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
 
