@@ -10,7 +10,7 @@ global.antitags = true;
 
 //auto functioner
 global.autoTyping = true;                //auto tying by default on.
-global.autoRecord = true;                //auto recording by default off.
+global.autoRecord = false;                //auto recording by default off.
 global.groupeven; t = true;              //This is the new variable for controlling group event handling.
 global.statusseen = true;                 //This is the new variable for controlling status seen.
 global.autoreadgc = true;
@@ -26,7 +26,7 @@ global.OwnerNumber = ["256755282425"];   //If you want singal number so global.O
 global.ownertag = ["256755282425"]
 global.OwnerName = "Mark";
 global.BotName = "Berrym";
-global.packname = "A17 Bot";                             //Do not change.
+global.packname = "Berry fruit";                             //Do not change.
 global.author = "By: Berrylove";                               //Do not change.
 global.BotSourceCode = "https://github.com/Kai0071/A17"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
@@ -47,7 +47,7 @@ global.themeemoji = "💖";
 global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
 global.websitex = "https://github.com/Kai0071";
 global.lolhuman = "not human";
-
+global.activate = "berrym activate";
 
 //
 global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
@@ -91,7 +91,7 @@ global.mess = {
   error: 'An error occured!',
   banned: 'You are *Banned* from using commands!',
   bangc: 'This Group is *Banned* from using Commands!',
-  nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
+
 
 }
 
