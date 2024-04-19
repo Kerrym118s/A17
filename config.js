@@ -6,18 +6,18 @@ const chalk = require("chalk");
 global.available = true;
 global.autoReadAll = true;
 global.antitags = true;
-
+global.activate =true;
 
 //auto functioner
 global.autoTyping = true;                //auto tying by default on.
-global.autoRecord = false;                //auto recording by default off.
+global.autoRecord = true;                //auto recording by default on.
 global.groupeven; t = true;              //This is the new variable for controlling group event handling.
 global.statusseen = true;                 //This is the new variable for controlling status seen.
 global.autoreadgc = true;
-
+global.activate = true;
 
 //
-global.prefa = ["."];                                    //Default prefix here. you can change if you want.
+global.prefa = ["*"];                                    //Default prefix here. you can change if you want.
 
 
 //
@@ -30,7 +30,7 @@ global.packname = "Berry fruit";                             //Do not change.
 global.author = "By: Berrylove";                               //Do not change.
 global.BotSourceCode = "https://github.com/Kai0071/A17"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
-
+global.activatebot = "rise"
 
 //
 global.sessionName = "session";                          //Do not change.
@@ -57,25 +57,25 @@ global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg");
 
 
 //
-global.ntilinkytvid = []
+global.ntilinkytvid = [true]
 global.ntilinkytch = []
 global.ntilinkig = []
 global.ntilinkfb = []
 global.ntilinktg = []
 global.ntilinktt = []
 global.ntilinktwt = []
-global.ntilinkall = []
-global.nticall = []
-global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
+global.ntilinkall = [true]
+global.nticall = [true]
+global.ntwame = [true]
+global.nttoxic = [true]
+global.ntnsfw = [true]
 global.ntvirtex = []
-global.rkyt = []
-global.wlcm = []
+global.rkyt = [true]
+global.wlcm = [true]
 global.gcrevoke = []
 global.autorep = [true]
-global.ntilink = []
-
+global.ntilink = [true]
+global.activate = [true]
 
 //
 global.mess = {
