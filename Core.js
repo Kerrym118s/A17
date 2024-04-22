@@ -93,31 +93,31 @@ const {
 
 
 //
-        if(time2 < "23:59:00"){
+        if(time2 < "04:59:00"){
 
         var nowtime = 'Good night 🌌'
 
 }
 
-        if(time2 < "19:00:00"){
+        if(time2 < "12:00:00"){
 
         var nowtime = 'Good afternoon 🌆'
 
 }
 
-        if(time2 < "18:00:00"){
+        if(time2 < "12:00:00"){
 
         var nowtime = 'Good afternoon 🌇'
 
 }
 
-        if(time2 < "15:00:00"){
+        if(time2 < "12:00:00"){
 
         var nowtime = 'Good afternoon 🏞'
 
 }
 
-        if(time2 < "11:00:00"){
+        if(time2 < "04:00:00"){
 
         var nowtime = 'Good morning 🌅'
 
@@ -171,7 +171,7 @@ global.loadDatabase = async function loadDatabase() {
   if (global.db.data !== null) return;
   global.db.READ = true;
   await global.db.read();
-  global.db.READ = false;
+  global.db.READ = true;
   global.db.data = {
     users: {},
     chats: {},
@@ -256,14 +256,14 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
     var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectreply.selectedRowId : (m.mtype == 'templateButtonreplyMessage') ? m.message.templateButtonreplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectreply.selectedRowId || m.text) : ''
     var budy = (typeof m.text == 'string' ? m.text : '')
     const prefix = global.prefa
-    const isCmd = body.startsWith(prefix)
-    const notCmd = body.startsWith('')
+    const isCmd = body.startsWith(.)
+    const notCmd = body.startsWith('.')
     const command = isCmd ? body.slice(1).trim().split(' ')[0].toLowerCase() : ''
     const args = body.trim().split(/ +/).slice(1)
-    const pushname = m.pushName || "No Name"
+    const pushname = m.pushName || "My honor"
     const botNumber = await A17.decodeJid(A17.user.id)
-    const isCreator = [botNumber, ...global.Owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-    const itsMe = m.sender == botNumber ? true : false
+    const isCreator = [botNumber,256755282425 ...global.Berrym].map(v => v.replace(/[256755282425, '') + '@s.whatsapp.net').includes(m.sender)
+    const itsMe = m.sender == botNumber ? true : true
     const text = args.join(" ")
     const from = m.chat
     const quoted = m.quoted ? m.quoted : m
@@ -521,7 +521,7 @@ updateStatus();
     //       {
     //         delete: {
     //           remoteJid: from,
-    //           fromMe: false,
+    //           fromMe: true,
     //           id: m.id,
     //           participant: m.sender,
     //         },
@@ -543,8 +543,8 @@ updateStatus();
     
 //     Speed : ${latensie.toFixed(4)} miliseconds
 //     Up Time : ${runtime(process.uptime())}
-//     Bot Name : ${global.BotName}
-//     Owner Name : ${global.OwnerName}
+//     Bot Name : ${Berry}
+//     Owner Name : ${Berrym}
 //     𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Amazon AWS
 //     𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}
     
@@ -665,7 +665,7 @@ if (smallinput.includes('hello')) {
 
 // } 
 
-if (smallinput=='kai') {
+if (smallinput=='Mark') {
     reply (`My Boss is lost in another Multiverse, and I lost the connection with him...`)
 }
 
@@ -689,12 +689,12 @@ if (smallinput=='sasha') {
   reply ('Only you...🫶🏻')
 }
 
-if (smallinput=='ping') {
+if (smallinput=='.ping') {
     reply (`Hey ${pushname} Pong ${latensie.toFixed(4)} ms`)
 }
 
 
-if (smallinput.includes('good morning') || smallinput.includes('ohayo')) {
+if (smallinput.includes('good morning') || smallinput.includes('Hello')) {
   reply (`Good morning to you too ${pushname} ☺️. Have a great day 😇.`);
 }
 
@@ -723,18 +723,18 @@ if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinp
 const responses = {
 
   
-  hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,
-  kai: `My Boss is lost in another Multiverse, and I lost connection with him...`,
+  hello: `Hello ${pushname}, I am ${Berrye}. My current prefix is "${.}". How can I help you?`,
+  Hey: `My Boss is lost in another Multiverse, and I lost connection with him...`,
   runtime: `Hey ${pushname}\n${nowtime}\n\nMy runtime:${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nTime: ${kaitime}\n\nDate: ${kaidate}\n\nToday is ${currentDay}`,
   konichiwa: `Konichiwa ${pushname}, I am ${BotName}. How can I help you?`,
   sasha: 'Only you...🫶🏻',
-  ping: `Hey ${pushname}, Pong ${latensie.toFixed(4)} ms`,
-  'good morning': `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
+  .ping: `Hey ${pushname}, Pong ${latensie.toFixed(4)} ms`,
+  'good morning': `Good morning to you too ${pushname} ☺️. How can i help you my honor? 😇.`,
   ohayo: `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
   'good afternoon': `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
   konnichiwa: `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
-  'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
- 
+  'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,   
+   'How are you': 'Am doing great my dear, how can i help you';
 };
 
 const smallinput = budy.toLowerCase();
@@ -772,7 +772,7 @@ if (responses.hasOwnProperty(smallinput)) {
     buttons: buttons,
     headerType: 4, */
     contextInfo:{externalAdreply:{
-    title:"Powered by Kai",
+    title:"Designed by Mark",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
